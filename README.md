@@ -3,6 +3,7 @@
 
 ## Tech Stacks and Architecture
 ![](https://i.imgur.com/lDXtQk4.png)
+![](https://i.imgur.com/weZEzo6.png)
 
 - Designed database structure and built RESTful APIs.
 - Deployed Node.js / Express application on AWS EC2.

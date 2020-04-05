@@ -1,0 +1,154 @@
+.profile-wrap{
+  min-height: calc(100vh - 258px);
+  padding-top: 50px;
+  @media (min-width: 768px) {
+    margin-top: 40px;
+  }
+}
+.profile-photo{
+  height: 100px;
+  width: 100px;
+  // background-color: #fff;
+  border-radius: 50%;
+  position: relative;
+  border: 10px solid #eee;
+  box-sizing: initial;
+  background: url() center/cover no-repeat;
+  @media (min-width: 576px) {
+    height: 120px;
+    width: 120px;
+  }
+}
+.profile-info-wrap{
+  margin-left: 20px;
+}
+.profile-item{
+  margin-top: 10px;
+}
+.profile-name{
+  font-size: 20px;
+  font-weight: bold;
+  color: $color-light-brow;
+  .fa-user{
+    font-size: 16px;
+    margin-right: 8px;
+    font-weight: bold;
+    opacity: .6;
+  }
+}
+.profile-email, .profile-grade{
+  font-size: 14px;
+  color: $color-light-gray;
+  letter-spacing: 1px;
+}
+.fa-medal{
+  margin-right: 5px;
+}
+.profile-email{
+  letter-spacing: .5px;
+}
+.logBtn{
+  margin-top: 15px;
+  background-color: #fff;
+  border: 1px solid $color-light-brow;
+  padding: 5px 15px;
+  border-radius: 15px;
+  color: $color-light-brow;
+  font-weight: bold;
+  transition: .3s;
+  cursor: pointer;
+  &:hover, &:active{
+    background-color: $color-light-brow;
+    color: #fff;
+  }
+  &:focus{
+    outline: none;
+  }
+}
+.oderInfo-wrap{
+  margin-top: 50px;
+  border-bottom: 2px solid rgba($color-light-brow, .5);
+}
+.oderInfo-title{
+  margin-left: 10px;
+  font-size: 14px;
+  background-color: rgba($color-light-brow, .2);
+  padding: 8px 10px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 8px 8px 0px 0px;
+  font-weight: bold;
+  color: $color-dark-brow;
+  &:hover, &:active{
+    background-color: rgba($color-light-brow, .5);
+  }
+  @media (min-width: 576px) {
+    font-size: initial;
+    padding: 8px 15px;
+  }
+}
+.oderInfo-title.active{
+  background-color: rgba($color-light-brow, .5);
+}
+.oderInfo-content{
+  margin-top: 5px;
+  color: $color-text;
+  margin-bottom: 50px;
+}
+.oderInfo-item{
+  border: 1px solid rgba($color-light-gray, .3);
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-top: 5px;
+  position: relative;
+  li {
+    font-weight: bold;
+    margin-right: 20px;
+    padding: 5px 0;
+    @media (min-width: 992px) {
+      
+    }
+  }
+}
+.oderInfo-productList{
+  position: absolute;
+  right: 0;
+  bottom: 11px;
+  z-index: 1;
+  @media (min-width: 992px) {
+    position: initial;
+  }
+  a{
+    color: #fff;
+    background-color: $color-light-brow;
+    border: 1px solid $color-light-brow;
+    padding: 3px 10px;
+    border-radius: 5px;
+    transition: .3s;
+    &:hover, &:active{
+      background-color: darken($color-light-brow, 8);
+    }
+  }
+}
+.oderInfo-receiveStatus{
+  transition: .3s;
+  a{
+    color: #fff;
+    background-color: #a94442;
+    padding: 3px 10px;
+    border-radius: 5px;
+    transition: .3s;
+    &:hover, &:active{
+      background-color: darken(#a94442, 8);
+    }
+  }
+}
+.login-bg{
+  min-height: calc(100vh - 100px);
+}
+.section-relative{
+  position: relative;
+}
+.profile-login{
+  background-color: #fff;
+}

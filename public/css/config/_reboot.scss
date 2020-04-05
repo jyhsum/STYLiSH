@@ -1,0 +1,59 @@
+h1,h2,h3,h4,h5,h6,p{
+  margin: 0;
+  padding: 0;
+}
+
+// form
+.form{
+  max-width: 600px;
+  margin: auto;
+}
+
+.form input[type="text"],
+.form input[type="tel"],
+.form input[type="email"],
+.form textarea{
+  padding: 8px 16px;
+  display: inline-block;
+  border: 1px solid #f5f1ef;
+  border-radius: 4px;
+  vertical-align: middle;
+  width: 100%;
+  margin-bottom: 16px;
+  background-color: inherit;
+  color: #f5f1ef;
+}
+.form textarea{
+  resize: none;
+}
+.form input[type="text"]:focus,
+.form input[type="tel"]:focus,
+.form input[type="email"]:focus,
+.form textarea:focus{
+  outline: 0;
+}
+.form label{
+  margin-bottom: 3px;
+  display: inline-block;
+  vertical-align: middle;
+  color: #f5f1ef;
+}
+// -------------------------------
+
+*{
+  font-family: -apple-system, BlinkMacSystemFont, 'Microsoft JhengHei','Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html,body{
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}

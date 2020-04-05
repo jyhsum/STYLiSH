@@ -1,0 +1,136 @@
+.container{
+  width: 100%;
+  box-sizing: border-box;
+  padding-right: 24px;
+  padding-left: 24px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.container-product{
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media (min-width: 576px) {
+  .container, .container-product {
+    // max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container, .container-product {
+    max-width: 720px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+  .container-product{
+    max-width: 1000px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container{
+    max-width: 1200px;
+  }
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -3px;
+  margin-left: -3px;
+}
+@media (min-width: 768px) {
+  .row {
+    margin-right: -20px;
+    margin-left: -20px;
+  }
+}
+
+.col-4, .col-6, .col-12,
+.col-sm-4, .col-sm-6, .col-sm-12,
+.col-md-4, .col-md-6, .col-md-12,
+.col-lg-4, .col-lg-6, .col-lg-12,
+.col-xl-4, .col-xl-6, .col-xl-12 {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 3px;
+  padding-left: 3px;
+}
+@media (min-width: 768px) {
+  .col-4, .col-6, .col-12,
+  .col-sm-4, .col-sm-6, .col-sm-12,
+  .col-md-4, .col-md-6, .col-md-12,
+  .col-lg-4, .col-lg-6, .col-lg-12,
+  .col-xl-4, .col-xl-6, .col-xl-12 {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+
+.col-4 {
+  max-width: 33.333333%;
+}
+.col-6 {
+  max-width: 50%;
+}
+.col-12 {
+  max-width: 100%;
+}
+
+@media (min-width: 576px) {
+  .col-sm-4 {
+    max-width: 33.333333%;
+  }
+  .col-sm-6 {
+    max-width: 50%;
+  }
+  .col-sm-12 {
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .col-md-4 {
+    max-width: 33.333333%;
+  }
+  .col-md-6 {
+    max-width: 50%;
+  }
+  .col-md-12 {
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .col-lg-4 {
+    max-width: 33.333333%;
+  }
+  .col-lg-6 {
+    max-width: 50%;
+  }
+  .col-lg-12 {
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .col-xl-4 {
+    max-width: 33.333333%;
+  }
+  .col-xl-6 {
+    max-width: 50%;
+  }
+  .col-xl-12 {
+    max-width: 100%;
+  }
+}

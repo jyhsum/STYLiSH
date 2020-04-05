@@ -1,0 +1,12 @@
+.member{
+  position: relative;
+}
+.loginPhoto{
+  height: 35px;
+  width: 35px;
+  position: absolute;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
